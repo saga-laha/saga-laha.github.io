@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#color-palette-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#color-1 {
+    background-color: #542344;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-2 {
+    background-color: #BFD1E5;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-3 {
+    background-color: #EBF5EE;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-palette-2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#p2-c1 {
+    background-color: #E1CA96;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c2 {
+    background-color: #ACA885;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c3 {
+    background-color: #918B76;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#color-palette-3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#p3-c1 {
+    background-color: #30011E;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c2 {
+    background-color: #B68F40;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c3 {
+    background-color: #B6CCA1;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}

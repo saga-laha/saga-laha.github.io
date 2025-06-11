@@ -1,0 +1,45 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color: yellow;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 24px;
+    padding: 24px;
+    font-size: x-large;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.202);
+    font-family: 
+    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
+    Arial, sans-serif
+}
+#yellow-post-it {
+    background-color: rgb(209, 236, 38)
+}
+#green-post-it {
+    background-color: green;
+}
+#pink-post-it {
+    background-color: pink;
+}
+#blue-post-it {
+    background-color: rgb(62, 147, 243);
+    margin: 150px
+}
+#orange-post-it {
+    background-color: orange;
+    font-size: 20px;
+}
+#purple-post-it {
+    background-color: rgb(165, 48, 165);
+    font-size: 20px;
+}
+#wow-photo {
+    width: 40px;
+}

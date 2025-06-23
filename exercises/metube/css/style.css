@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* grid container */
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+}
+
+/* grid item */
+#header {
+    /* background-color: plum; */
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+/* grid item */
+#sidebar {
+    /* background-color: beige; */
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+/* grid item */
+/* flebox container */
+#main {
+    /* background-color: lightblue; */
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #111111;
+}
+
+#header #tube {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+    padding: 12px;
+}
+
+/* psuedo class */
+#sidebar ul a:hover {
+    background-color: #eeeeee;
+    border-radius: 12px;
+}
+
+.metube-item{
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item img {
+        aspect-ratio: 16 / 9;
+        border-radius: 8px;
+        width: 100%;
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}

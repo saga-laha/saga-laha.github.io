@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* GRID CONTAINER */
+#grid-container {
+    display: grid;
+    grid-template-columns: 200px 2fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "col1 col2 col3";
+    padding: 24px;
+}
+
+#header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#col-1 {
+    grid-area: col1;
+    padding: 24px;
+}
+
+#col-2 {
+    grid-area: col2;
+    padding: 24px;
+    min-width: 800px;
+}
+
+#col-3 {
+    grid-area: col3;
+    padding: 24px;
+}
+
+
+/* THUMBNAIL CONTAINER */
+#thumbnails {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail {
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.selected-thumbnail {
+    border: 1px solid black;
+}
+
+/* Image container */
+#main-image {
+    text-align: center;
+    background-color: #e2e1e0;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#product-one {
+    width: 80%;
+}
+
+/* Product details */
+#quantity {
+    margin: 20px 0px;
+}
+
+.input-box {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.buy-button {
+    background-color: white;
+    border: 1px solid #3665f3;
+    border-radius: 24px;
+    font-size: medium;
+    min-height: 48px;
+    min-width: 250px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-button {
+    background-color: #3665f3;
+    color: white;
+}
+
+#buttons button:hover {
+    background-color: rgb(223, 223, 223, 0.75);
+}
+
+#buttons button.main-button:hover {
+    background-color: white;
+    color: #3665f3;
+}
+
+/* Product and profile */
+#brand-info {
+    display: grid;
+    grid-template-columns: 50px 2fr;
+    grid-template-areas: 
+        "profile-pic brand-name"
+        "profile-pic brand-details";
+}
+
+#profile-pic {
+    grid-area: profile-pic;
+    max-width: 50px;
+    border-radius: 50%;
+
+}
+
+#brand-name {
+    grid-area: brand-name;
+    margin: 2px;
+}
+
+#brand-details {
+    grid-area: brand-details;
+    font-size: 11px;
+}
+
+#brand-details span {
+    margin: 0px 5px;
+}
+
+#brand-details a {
+    color: lightslategray;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.093);
+}

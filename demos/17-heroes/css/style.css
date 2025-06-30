@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    /* basic setup */
+    background-image: url(../images/lizard.jpg);
+    /* height size will change */
+    height: 100vh;
+    /* image will fill the screen and crop accordingly */
+    background-size: cover;
+    /* whatever position you put that will be on screen no matter what */
+    background-position: center center;
+    /* basic setup end */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* must be applied to a container */
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-1 h1 {
+    font-size: 120px;
+    /* must be added to what we want to move. you have to have use position
+    abosolute with left, right, top, bottom*/
+    position: absolute;
+    left: 20%;
+}
+
+#hero-2 {
+    background-image: url(../images/lonely-ocean.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* must be on a container */
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-2 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+}
+
+#hero-2 h4 {
+    font-size: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 47%;
+}
+
+#hero-2 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+}
+
+#hero-3 {
+    background-image: url(../images/orange-wildflowers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-3 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-3 h2 {
+    font-size: 72px;margin-bottom: 36px;
+}
+
+#hero-3 h4 {
+    font-size: 24px;margin: 0px;
+}
+
+#hero-3 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 24px;
+}
+
+#hero-4 {
+    background-image: url(../images/stars-on-velvet.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+#hero-4 h2 {
+    font-size: 72px;margin-bottom: 36px;
+}
+
+#hero-4 h4 {
+    font-size: 24px;margin: 0px;
+}
+
+#hero-4 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/emerald-seas.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* get rid of the margins on the heroes in order to get rid of the white */

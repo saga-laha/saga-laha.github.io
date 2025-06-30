@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+ /* basic setup */
+#hero-1 {
+    background-image: url(../images/penguin_crowd.jpg);
+    /* height size will change */
+    height: 100vh;
+    /* image will fill the screen and crop accordingly */
+    background-size: cover;
+    /* whatever position you put that will be on screen no matter what */
+    background-position: center center;
+    /* basic setup end */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* must be applied to a container */
+    position: relative;
+}
+
+#hero-1 .hero-content {
+    font-size: 20px;
+    /* must be added to what we want to move. you have to have use position
+    abosolute with left, right, top, bottom*/
+    position: absolute;
+    left: 40%;
+    bottom: 60%
+}
+
+#hero-1 a {
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#hero-2 {
+    background-image: url(../images/colorful_bird.jpg);
+    /* height size will change */
+    height: 100vh;
+    /* image will fill the screen and crop accordingly */
+    background-size: cover;
+    /* whatever position you put that will be on screen no matter what */
+    background-position: center center;
+    /* basic setup end */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* must be applied to a container */
+    position: relative;
+}
+
+#hero-2 .hero-content {
+    font-size: 30px;
+    color: white;
+    /* must be added to what we want to move. you have to have use position
+    abosolute with left, right, top, bottom*/
+    position: absolute;
+    left: 60%;
+    bottom: 10%
+}
+
+#hero-2 a {
+    background-color: indigo;
+    text-decoration: none;
+    color: white;
+    border: 2px solid indigo;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#hero-3 {
+    background-image: url(../images/beach_overview.jpg);
+    /* height size will change */
+    height: 100vh;
+    /* image will fill the screen and crop accordingly */
+    background-size: cover;
+    /* whatever position you put that will be on screen no matter what */
+    background-position: center center;
+    /* basic setup end */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* must be applied to a container */
+    position: relative;
+}
+
+#hero-3 .hero-content {
+    font-size: 30px;
+    color: white;
+    /* must be added to what we want to move. you have to have use position
+    abosolute with left, right, top, bottom*/
+    position: absolute;
+    left: 60%;
+    bottom: 30%
+}
+
+#hero-3 a {
+    background-color: rgb(2, 83, 73);
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(2, 83, 73);
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(../images/urban-hi-res-2nse.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+}
+
+#hero .hero-content {
+    position: absolute;
+    top: 11%;
+    left: 15%;
+}
+
+#hero h2 {
+    color: white;
+    font-size: 120px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.545);
+    font-family: "Sedgwick Ave", cursive;
+    margin-bottom: 0px;
+}
+
+#hero a {
+    color: rgb(255, 0, 81);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 8px 8px 8px black;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "Sedgwick Ave", cursive;
+    margin: 10px;
+    padding: 20px;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.card {
+    width: 350px;
+    padding: 10px;
+    box-shadow: inset 8px 8px 8px rgba(0, 0, 0, 0.442);
+    background-color: rgb(255, 0, 81);
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    color: white;
+    font-family: "Sedgwick Ave", cursive;
+    font-size: 40px;
+    margin: 0px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-column .card {
+    flex: 1
+}

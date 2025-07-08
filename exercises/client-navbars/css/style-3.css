@@ -7,16 +7,26 @@ body {
     font-family: sans-serif;
 }
 
+#navbar-top {
+    background-color: #060520;
+    color: red;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
+
 #navbar {
-    background-color: #ddcbb7;
+    background-color: #902ebb;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 #navbar a {
     text-decoration: none;
-    color: #9f2214;
+    color: orange;
     padding: 24px;
     font-size: 20px;
 }
@@ -27,16 +37,16 @@ body {
 
 #navbar #logo {
     margin-right: auto;
-    color:#507282;
+    color:#000000;
     font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     text-align: center;
 }
 
 #navbar .cta-button {
-    background-color: white;
-    color: #507282;
+    background-color: orange;
+    color: white;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -64,7 +74,7 @@ body {
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background: yellowgreen;
     display: flex;
     justify-content: space-between;
 }
@@ -72,40 +82,6 @@ body {
 #navbar-bottom a {
     text-decoration: none;
     color: white;
-    padding: 12px 36px;
-}
-
-#footer {
-    background: linear-gradient(to bottom, teal, #01482e);
-    color: white;
-    padding: 12px;
-}
-
-#footer a {
-    text-decoration: none;
-    color: white;
-}
-
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer-columns-navbar {
-    width: 800px;
-    margin: 0px auto;
-    padding: 48px 0px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer-columns-navbar div {
-    display: flex;
-    flex-direction: column;
-}
-
-#footer-columns-navbar a {
-    padding: 8px 0px;
+    padding: 20px 40px;
+    font-size: 20px;
 }

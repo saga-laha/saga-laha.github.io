@@ -198,6 +198,7 @@ body {
     font-family: 'Montaga', serif;
     padding: 12px 24px;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 #nav a:hover {
@@ -374,6 +375,9 @@ body {
 #blog {
     background-color: lightgray;
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #main h2 {
@@ -497,4 +501,13 @@ body {
     #header h1 {
         font-size: 40px;
     }
+}
+
+/* this is wrong */
+#header {
+    grid-template-columns: 1fr;
+        grid-template-areas:
+            "home"
+            "not a blog"
+            "about george"
 }

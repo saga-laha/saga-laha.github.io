@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -74,6 +76,11 @@ body {
 #side-by-side-container h2 {
     font-size: 60px;
     margin-bottom: 12px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
 }
 
 #side-by-side-container p {
@@ -87,9 +94,73 @@ body {
     margin-right: auto;
 }
 
+.single-column2 h1 {
+    color: #b99963;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.single-column2 h1, 
+h3, 
+p {
+    text-align: center;
+}
+
 .menu-container {
-    background-color: lightgreen;
+    background-color: rgb(255, 255, 255);
     padding: 48px 0px;
+}
+
+hr {
+    border-top: 3px solid #b99963;
+    text-align: center;
+    justify-items: center;
+}
+
+#dessert-title {
+    text-align: center;
+    color: #b99963;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    background-color: #b99963;
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+}
+
+.card h3 {
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    color: white;
 }
 
 #footer {

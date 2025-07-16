@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -83,6 +85,14 @@ body {
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.205);
 }
 
+.card h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    color: #b99963;
+}
+
 .card a {
     background-color: #b99963;
     text-decoration: none;
@@ -124,4 +134,17 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+}
+
+/************* BREAKPOINT ***************/
+
+@media screen and (max-width: 900px) and (min-width: 450) {
+    #navbar {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "logo"
+            ""
+            "img3"
+            "img4";
+    }
 }

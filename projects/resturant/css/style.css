@@ -56,6 +56,12 @@ body {
     margin-right: 10px;
 }
 
+#navbar .cta-button:hover {
+    border: 2px solid #b99963;
+    color: #b99963;
+    background-color: white;
+}
+
 #hero-2 {
     background-image: url("../images/PPG_hero.jpg");
     height: 50vh;
@@ -67,6 +73,7 @@ body {
     position: relative;
     margin: 0px;
     padding: 0px;
+    margin-top: 12px;
 }
 
 #single-column {
@@ -146,9 +153,9 @@ body {
 
 @media screen and (max-width: 900px) and (min-width: 450px) {
     #navbar {
-       flex-direction: column;
-       align-items: center;
-       gap: 10px
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
     }
 
     #footer-navbar {

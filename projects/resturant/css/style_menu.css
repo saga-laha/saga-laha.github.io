@@ -56,6 +56,12 @@ body {
     margin-right: 10px;
 }
 
+#navbar .cta-button:hover {
+    border: 2px solid #b99963;
+    color: #b99963;
+    background-color: white;
+}
+
 #single-column {
     width: 90vw;
     max-width: 1200px;
@@ -189,9 +195,9 @@ hr {
 
 @media screen and (max-width: 900px) and (min-width: 450px) {
     #navbar {
-       flex-direction: column;
-       align-items: center;
-       gap: 10px
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
     }
 
     #footer-navbar {
@@ -204,8 +210,8 @@ hr {
     }
 
     .card p {
-    font-size: 12px;
-    margin: 24px 0px 0px;
-    color: white;
-}
+        font-size: 12px;
+        margin: 24px 0px 0px;
+        color: white;
+    }
 }

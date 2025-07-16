@@ -36,6 +36,10 @@ body {
     padding: 24px;
 }
 
+#navbar #logo:hover {
+    border-bottom: 0px;
+}
+
 #navbar a:hover {
     border-bottom: 4px solid #b99963;
 }
@@ -123,10 +127,12 @@ body {
     background: #b99963;
     color: white;
     padding: 12px;
+    display: flex;
 }
 
 #footer a {
     color: white;
+    display: flex;
 }
 
 #footer-navbar {
@@ -138,13 +144,15 @@ body {
 
 /************* BREAKPOINT ***************/
 
-@media screen and (max-width: 900px) and (min-width: 450) {
+@media screen and (max-width: 900px) and (min-width: 450px) {
     #navbar {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "logo"
-            ""
-            "img3"
-            "img4";
+       flex-direction: column;
+       align-items: center;
+       gap: 10px
+    }
+
+    #footer-navbar {
+        flex-direction: column;
+        align-items: center;
     }
 }
